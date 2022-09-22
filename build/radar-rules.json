@@ -1638,6 +1638,16 @@
         "target": "/bilibili/user/video-all/:uid"
       },
       {
+        "title": "UP 主频道的合集",
+        "docs": "https://docs.rsshub.app/social-media.html#bilibili",
+        "source": "/:uid/channel/collectiondetail"
+      },
+      {
+        "title": "UP 主频道的视频列表",
+        "docs": "https://docs.rsshub.app/social-media.html#bilibili",
+        "source": "/:uid/channel/seriesdetail"
+      },
+      {
         "title": "UP 主专栏",
         "docs": "https://docs.rsshub.app/social-media.html#bilibili",
         "source": "/:uid",
@@ -1672,11 +1682,6 @@
         "docs": "https://docs.rsshub.app/social-media.html#bilibili",
         "source": "/:uid",
         "target": "/bilibili/user/bangumi/:uid"
-      },
-      {
-        "title": "当前合集",
-        "docs": "https://docs.rsshub.app/social-media.html#bilibili",
-        "source": "/:uid/channel/collectiondetail"
       }
     ],
     "manga": [
@@ -5005,6 +5010,17 @@
       }
     ]
   },
+  "gihyo.jp": {
+    "_name": "gihyo.jp",
+    ".": [
+      {
+        "title": "記事一覧",
+        "docs": "https://docs.rsshub.app/programming.html#gihyo-jp",
+        "source": "/list/group/:id",
+        "target": "/gihyo/list/group/:id"
+      }
+    ]
+  },
   "gitee.com": {
     "_name": "Gitee",
     ".": [
@@ -7002,6 +7018,20 @@
           "/extras/indybest/gadgets-tech/video-games-consoles/ps5-stock-uk-restock-live-today-b1938965.html"
         ],
         "target": "/ps5-stock-uk"
+      }
+    ]
+  },
+  "indiansinkuwait.com": {
+    "_name": "Indians in Kuwait",
+    ".": [
+      {
+        "title": "News",
+        "docs": "https://docs.rsshub.app/en/new-media.html#indians-in-kuwait",
+        "source": [
+          "/latest-news",
+          "/"
+        ],
+        "target": "/indiansinkuwait/latest"
       }
     ]
   },
@@ -14310,7 +14340,7 @@
         ]
       },
       {
-        "title": "列表",
+        "title": "栏目",
         "docs": "https://docs.rsshub.app/traditional-media.html#peng-pai-xin-wen-lie-biao",
         "source": [
           "/"
@@ -15403,6 +15433,18 @@
       }
     ]
   },
+  "web3caff.com": {
+    "_name": "web3caff",
+    ".": [
+      {
+        "title": "发现",
+        "docs": "https://docs.rsshub.app/new-media.html#web3caff-fa-xian",
+        "source": [
+          "/"
+        ]
+      }
+    ]
+  },
   "careerengine.us": {
     "_name": "微信",
     "posts": [
@@ -15682,6 +15724,19 @@
           "/wizfile/download"
         ],
         "target": "/wizfile/updates"
+      }
+    ]
+  },
+  "worldjournal.com": {
+    "_name": "世界新聞網",
+    ".": [
+      {
+        "title": "新聞",
+        "docs": "https://docs.rsshub.app/new-media.html#shi-jie-xin-wen-wang",
+        "source": [
+          "/wj/*path"
+        ],
+        "target": "/worldjournal/:path"
       }
     ]
   },
@@ -16486,6 +16541,63 @@
           "/news/world"
         ],
         "target": "/zaobao/znews/world"
+      }
+    ]
+  },
+  "zcool.com.cn": {
+    "_name": "站酷",
+    "www": [
+      {
+        "title": "发现",
+        "docs": "https://docs.rsshub.app/design.html#zhan-ku",
+        "source": [
+          "/discover",
+          "/"
+        ]
+      },
+      {
+        "title": "发现 - 精选 - 全部推荐",
+        "docs": "https://docs.rsshub.app/design.html#zhan-ku",
+        "source": "",
+        "target": "/zcool/discover/all"
+      },
+      {
+        "title": "发现 - 精选 - 首页推荐",
+        "docs": "https://docs.rsshub.app/design.html#zhan-ku",
+        "source": "",
+        "target": "/zcool/discover/home"
+      },
+      {
+        "title": "发现 - 精选 - 编辑精选",
+        "docs": "https://docs.rsshub.app/design.html#zhan-ku",
+        "source": "",
+        "target": "/zcool/discover/home"
+      },
+      {
+        "title": "发现 - 精选 - 文章 - 编辑精选",
+        "docs": "https://docs.rsshub.app/design.html#zhan-ku",
+        "source": "",
+        "target": "/zcool/discover/article"
+      },
+      {
+        "title": "作品榜单",
+        "docs": "https://docs.rsshub.app/design.html#zhan-ku",
+        "source": "",
+        "target": "/zcool/top/design"
+      },
+      {
+        "title": "文章榜单",
+        "docs": "https://docs.rsshub.app/design.html#zhan-ku",
+        "source": "",
+        "target": "/zcool/top/article"
+      },
+      {
+        "title": "用户作品",
+        "docs": "https://docs.rsshub.app/design.html#zhan-ku",
+        "source": [
+          "/u/:id"
+        ],
+        "target": "/zcool/user/:id"
       }
     ]
   },
@@ -17451,61 +17563,6 @@
         "docs": "http://docs.rsshub.app/university.html#hu-bei-gong-ye-da-xue",
         "source": "/djhd/djhd.htm",
         "target": "/hbut/cs/djhd"
-      }
-    ]
-  },
-  "zcool.com.cn": {
-    "_name": "站酷",
-    "www": [
-      {
-        "title": "发现",
-        "docs": "https://docs.rsshub.app/design.html#zhan-ku",
-        "source": "",
-        "target": "/zcool/discover"
-      },
-      {
-        "title": "发现 - 精选 - 全部推荐",
-        "docs": "https://docs.rsshub.app/design.html#zhan-ku",
-        "source": "",
-        "target": "/zcool/discover/all"
-      },
-      {
-        "title": "发现 - 精选 - 首页推荐",
-        "docs": "https://docs.rsshub.app/design.html#zhan-ku",
-        "source": "",
-        "target": "/zcool/discover/home"
-      },
-      {
-        "title": "发现 - 精选 - 编辑精选",
-        "docs": "https://docs.rsshub.app/design.html#zhan-ku",
-        "source": "",
-        "target": "/zcool/discover/home"
-      },
-      {
-        "title": "发现 - 精选 - 文章 - 编辑精选",
-        "docs": "https://docs.rsshub.app/design.html#zhan-ku",
-        "source": "",
-        "target": "/zcool/discover/article"
-      },
-      {
-        "title": "作品榜单",
-        "docs": "https://docs.rsshub.app/design.html#zhan-ku",
-        "source": "",
-        "target": "/zcool/top/design"
-      },
-      {
-        "title": "文章榜单",
-        "docs": "https://docs.rsshub.app/design.html#zhan-ku",
-        "source": "",
-        "target": "/zcool/top/article"
-      },
-      {
-        "title": "用户作品",
-        "docs": "https://docs.rsshub.app/design.html#zhan-ku",
-        "source": [
-          "/u/:id"
-        ],
-        "target": "/zcool/user/:id"
       }
     ]
   },
